@@ -20,13 +20,13 @@ pip install -r requirements.txt
 SECRET_KEY - cекретный ключ Django
 DATABASE_URL - при использовании БД, отличной от sqlite (пример: postgres://USER:PASSWORD@HOST:PORT/NAME)
 ```
-4. Создайте профиль администратора:  
-```sh
-python manage.py createsuperuser
-```
-5. Создайте базу данных и отмигрируйте её следующей командой:  
+4. Создайте базу данных и отмигрируйте её следующей командой:  
 ```sh
 python manage.py migrate
+```
+5. Создайте профиль администратора:  
+```sh
+python manage.py createsuperuser
 ```
 6. Запустите сервер:  
 ```sh
